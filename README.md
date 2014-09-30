@@ -3,7 +3,7 @@
 Public Key Manager is a simple way of managing, creating and distributing your public-key to a server to enable password-less authentication.
 PBM is built with Node.js and node-webkit. For now it's not completely asynchronous, but that will improve over time.
 
-![](https://photos-3.dropbox.com/t/1/AACFIKCdJO8ecJrp_zmBKNvkKwSkLR8Nxy2wOwSoO9o9Hg/12/241699/png/1024x768/3/1412082000/0/2/sc.png/ne9s2ls9oraUNng3QRIMHXvmd_2v2captHQ_04Sfouc) 
+![](https://raw.githubusercontent.com/johanberglind/PublicKeyManager/master/sc.png) 
 
 **Please do not use PBM currently, it's missing a lot of features and have not been tested properly.**
 
