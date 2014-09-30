@@ -1,6 +1,12 @@
 <h1> Distribute Keys </h1>
 
 <p> <b> Below you will find servers with your public-key deployed to: </b> </p>
+<hr>
+
+<button class="command-button primary" id="distributeButton" onclick="distributeNewKey()">Distribute Key<small> Distribute your public key </small> </button>
+
+
+<br></br>
 
 <div class="listview-outlook">
     <a href="#" class="list">

@@ -4,6 +4,7 @@ var exitButton;
 var open = require('open');
 var keysJS = require('./myJS/keys');
 var fs = require('fs');
+var deployKeys = require('./myJS/distribute');
 
 
 function openGithub() { open("http://www.github.com/johanberglind"); }
@@ -15,6 +16,15 @@ function parseFile(viewName) {
 		}
 		displayView(data);
 		});
+}
+
+
+function deploy() {
+	var ip = document.getElementById("ipfield").value;
+	var username = document.getElementById("usernamefield").value
+	var password = document.getElementById("passwordfield").value
+
+	deployKeys.deployToServer(ip, username, password);
 }
 
 function promptDelete() {
@@ -36,6 +46,11 @@ function changeView(viewName) {
 	parseFile(viewName);
 }
 
+/*
+Below are the functions that delegate the content displayed.
+*/
+
+function distributeNewKey() {changeView('./views/sendKey.view'); }
 function showInstructionPane() { changeView('./views/manual.view'); }
 function startAbout() { changeView('./views/about.view'); }
 function mainPane() { changeView ('./views/main.view'); }

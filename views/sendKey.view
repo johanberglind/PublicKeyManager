@@ -1,0 +1,27 @@
+<h1> Deploy Key </h1>
+
+
+<form>
+	<fieldset>
+
+	<label> Server IP: </label>
+	<div class="input-control text" data-role="input-control">
+        <input id="ipfield" type="text" placeholder="Server IP">
+    </div>
+
+    <label> Username: </label>
+	<div class="input-control text" data-role="input-control">
+        <input id="usernamefield" type="text" placeholder="Username">
+    </div>
+
+    <label>Password: </label>
+	<div class="input-control text" data-role="input-control">
+        <input id="passwordfield" type="password" placeholder="Password">
+    </div>
+
+    <hr>
+
+</form>
+
+<button class="command-button success" onclick="deploy()">Deploy<small> Deploy your public key</small> </button>
+
