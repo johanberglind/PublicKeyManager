@@ -1,0 +1,12 @@
+<h1> Key-generation </h1>
+
+<p> <b> To generate SSH-keys, please follow the instructions below: </b> </p>
+
+<ol>
+
+<li> Open a terminal/console </li>
+<li> Use the command: "ssh-keygen -t rsa -b 4096 </li>
+<li> Follow the on-screen instructions </li>
+<li> Done! </li>
+
+</ol>

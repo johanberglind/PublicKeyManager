@@ -1,0 +1,15 @@
+
+<h1>About</h1>
+ 
+<p>Public Key Manager was created by Johan Berglind as a fun way to learn Node.JS and related technologies. PBM makes use of multiple open-source libraries, all which are mentioned below. </p>
+
+<p><b> Public Key Manager uses code from the following projects </b></p>
+
+<ul>
+ <li> node-open </li>
+ <li> node-webkit </li>
+ <li> jQuery </li>
+ <li> Metro UI CSS </li>
+ <li> Font Awesome </li>
+
+</ul>

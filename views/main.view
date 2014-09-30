@@ -1,0 +1,11 @@
+<h1>Public Key Manager</h1>
+<p>Public Key Manager will help you setup public-key authentication on your SSH-servers. If you have not already created a public/private key-pair PKM will help you with this process. By default, PBK will use 4096-bit RSA.
+Please note that PBK is currently in alpha-phase and should not be used without extensive testing!
+</p>
+
+<b> Current version: 0.0.1 </b>
+<p>
+
+If you run into any issues, please report them with as much information as you can gather to the Github Issues page.
+
+ </p>

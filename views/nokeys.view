@@ -1,0 +1,11 @@
+<h1> Keys </h1>
+
+<br> </br>
+
+<h4> No keys found! (~/.ssh/) </h4>
+
+<p><b> Would you like us to create a new public/private key-pair (RSA 4096-bit) and place it in the directory above? </b> </p>
+
+<br> </br>
+
+<button class="command-button success" id="confirmButton" onclick="delegateGenerator()">Yes please <small> Generated using 4096-bit RSA </small> </button> <button class="command-button danger" id="denyButton" onclick="showInstructionPane()">No thanks <small> I'd rather do it manually. </small> </button>

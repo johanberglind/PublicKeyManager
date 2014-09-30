@@ -1,0 +1,16 @@
+{
+  "name": "PubKeyManager",
+  "version": "0.0.1",
+  "description": "A tool to manage public key auth with ssh",
+  "main": "index.html",
+  "window": {
+    "title": "Public Key Manager",
+    "icon": "icon.png",
+  	"toolbar":false,
+  	"resizable":false,
+  	"width":800,
+  	"height":500
+  	},
+  "author": "Johan Berglind",
+  "license": "MIT License"
+}

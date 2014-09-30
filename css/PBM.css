@@ -1,0 +1,15 @@
+body {
+   overflow:hidden;
+}
+
+#sidebar-wrapper {
+	overflow-x: hidden;
+}
+
+
+
+#exitPane {
+	position: absolute;
+	top:450px;
+	left:730px;
+}
