@@ -24,7 +24,14 @@ function deploy() {
 	var username = document.getElementById("usernamefield").value
 	var password = document.getElementById("passwordfield").value
 
-	deployKeys.deployToServer(ip, username, password);
+	/*
+		Here we should check that it really exists...
+	*/
+
+	var publicKeyEntire = keysJS.getPublicKeyEntire();
+
+	deployKeys.deployToServer(ip, username, password, publicKeyEntire);
+
 }
 
 function promptDelete() {
@@ -60,7 +67,6 @@ function startKey() {
 	if (keysJS.checkForKey()) {
 		var pubKeyInfo = keysJS.getPublicKeyInfo();
 		var generatedContent = keysJS.generateKeysPage(pubKeyInfo);
-		process.stdout.write(generatedContent);
 		displayView(generatedContent);
 	}
 

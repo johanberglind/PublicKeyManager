@@ -28,6 +28,16 @@ module.exports = {
 	},
 
 
+	getPublicKeyEntire: function() {
+
+		var publicFilePath = process.env['HOME'] + "/.ssh/id_rsa.pub";
+		var fs = require('fs');
+
+		return fs.readFileSync(publicFilePath).toString();
+
+	},
+
+
 
 	getPublicKeyInfo: function() {
 	
