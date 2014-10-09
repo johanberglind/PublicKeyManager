@@ -30,6 +30,10 @@ function deploy() {
 
 	var publicKeyEntire = keysJS.getPublicKeyEntire();
 
+	/*
+		Here we should check that the key not already exists on the server..
+	*/
+
 	deployKeys.deployToServer(ip, username, password, publicKeyEntire);
 
 }
@@ -63,7 +67,7 @@ function startAbout() { changeView('./views/about.view'); }
 function mainPane() { changeView ('./views/main.view'); }
 function startDist() { changeView ('./views/dist.view'); }
 function startKey() {
-	
+
 	if (keysJS.checkForKey()) {
 		var pubKeyInfo = keysJS.getPublicKeyInfo();
 		var generatedContent = keysJS.generateKeysPage(pubKeyInfo);
@@ -75,7 +79,7 @@ function startKey() {
 
 function delegateGenerator() {
 	keysJS.createSSHKeyPair();
-	startKey(); 
+	startKey();
 }
 
 function exitWindow() { require('nw.gui').Window.get().close(); }

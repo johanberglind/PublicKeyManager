@@ -4,6 +4,7 @@
 <hr>
 
 <button class="command-button primary" id="distributeButton" onclick="distributeNewKey()">Distribute Key<small> Distribute your public key </small> </button>
+<button class="command-button danger" id="cancelButton" onclick="">Remove Key<small> Delete public key from server </small> </button>
 
 
 <br></br>
@@ -22,5 +23,5 @@
         <div class="list-content">Fedora-LDAP on 10.0.0.6</div>
     </a>
 
-   
+
 </div>
